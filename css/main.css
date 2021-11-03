@@ -1,0 +1,135 @@
+/******  COLOR ********/
+.silver {
+  color: #AEAEAF; }
+
+.green {
+  color: #00D77B; }
+
+.red {
+  color: #EB4E37; }
+
+body {
+  width: 100%;
+  overflow-x: hidden; }
+  body header {
+    background-color: #F0F0F2; }
+    body header .container a {
+      text-decoration: none; }
+      body header .container a h5 {
+        margin-right: 10px;
+        padding: 15px 70px 15px 0; }
+    body header .container .silver-border {
+      border-top: 3px solid #D6D6E0; }
+    body header .container .red-border {
+      border-top: 3px solid #DE1E3A; }
+  body nav .Enter {
+    width: 30px;
+    height: 30px; }
+  body main .sect-one {
+    background-color: #003846; }
+  body main .sect-two {
+    position: absolute;
+    top: 620px;
+    left: 0;
+    right: 0; }
+    body main .sect-two .container .java {
+      background-color: #0A4958; }
+  body main .sect-three {
+    margin-top: 330px; }
+    body main .sect-three .container .table .hoverr:hover {
+      color: white;
+      background-color: #003846; }
+      body main .sect-three .container .table .hoverr:hover button {
+        color: white; }
+  body main .sect-four .container
+  .row .col .pictur {
+    width: 182px;
+    height: 212px;
+    border: 5px solid #104452;
+    border-radius: 50%;
+    box-shadow: 0 7px 7px #697fc6;
+    margin-bottom: 15px; }
+  body main .sect-five {
+    background-color: #F8F8FA; }
+    body main .sect-five .container .owl-carousel .card .apostrf {
+      width: 50px;
+      height: 50px; }
+    body main .sect-five .container .owl-carousel .card .tania {
+      width: 180px;
+      height: 200px; }
+  body .main2 .container .row .col-4 .imgf0 {
+    position: relative; }
+    body .main2 .container .row .col-4 .imgf0 .imgf1 {
+      position: absolute;
+      top: 0;
+      right: -19px; }
+    body .main2 .container .row .col-4 .imgf0 .imgf2 {
+      position: absolute;
+      top: 0;
+      right: -39px; }
+  body .main2 .container .row .col-4 .formm {
+    background-color: #F8F8FA; }
+  body .main2 .container .row .col-8 .kurslar .navTab {
+    background-color: #AEAEAF; }
+    body .main2 .container .row .col-8 .kurslar .navTab .nav .nav-item .nav-link {
+      text-decoration: none;
+      color: #AEAEAF; }
+      body .main2 .container .row .col-8 .kurslar .navTab .nav .nav-item .nav-link.nav-link:hover {
+        color: black;
+        border-bottom: 3px solid black; }
+      body .main2 .container .row .col-8 .kurslar .navTab .nav .nav-item .nav-link.nav-link:active {
+        color: black;
+        border-bottom: 3px solid black; }
+  body .main2 .container .row .col-8 .kurslar .tab-content .down_arrow {
+    width: 25px;
+    height: 15px; }
+    body .main2 .container .row .col-8 .kurslar .tab-content .down_arrow.active {
+      transform: rotate(180deg); }
+  body .main3 {
+    background-color: #AEAEAF; }
+    body .main3 .container .row .col-8 .nav .nav-item .nav-link {
+      text-decoration: none;
+      color: #AEAEAF; }
+      body .main3 .container .row .col-8 .nav .nav-item .nav-link.nav-link:hover {
+        color: black;
+        border-bottom: 3px solid black; }
+      body .main3 .container .row .col-8 .nav .nav-item .nav-link.nav-link:active {
+        color: black;
+        border-bottom: 3px solid black; }
+    body .main3 .container .row .col-8 .tab-content .flex-row-reverse .teacher {
+      border-radius: 30px;
+      border: 1px solid silver;
+      background-color: white;
+      position: relative; }
+      body .main3 .container .row .col-8 .tab-content .flex-row-reverse .teacher .pdp {
+        position: absolute;
+        border-radius: 50%;
+        bottom: 30px;
+        right: -15; }
+    body .main3 .container .row .col-8 .tab-content .w-75 {
+      border-radius: 30px;
+      border: 1px solid silver;
+      background-color: #AEAEAF;
+      position: relative; }
+      body .main3 .container .row .col-8 .tab-content .w-75 .read {
+        position: absolute;
+        right: 5px;
+        bottom: 5px; }
+      body .main3 .container .row .col-8 .tab-content .w-75 .pupil {
+        position: absolute;
+        left: -20px;
+        top: 22px; }
+  body .main4 {
+    background-color: #AEAEAF; }
+    body .main4 .container .row .col-4 {
+      position: relative; }
+      body .main4 .container .row .col-4 .setting {
+        position: absolute;
+        top: 30px;
+        right: 30px; }
+  body footer {
+    background-color: #F8F8FA; }
+    body footer .container .row .col-2 .nav-link, body footer .container .row .col-6 .nav-link {
+      color: #6C6C6C; }
+
+/*# sourceMappingURL=main.css.map */

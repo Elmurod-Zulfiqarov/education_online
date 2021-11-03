@@ -1,0 +1,302 @@
+/******  COLOR ********/
+.silver {
+  color: #AEAEAF;
+}
+
+.green {
+  color: #00D77B;
+}
+
+.red {
+  color: #EB4E37;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+
+  header {
+    background-color: #F0F0F2;
+
+    .container {
+      a {
+        text-decoration: none;
+
+        h5 {
+          margin-right: 10px;
+          padding: 15px 70px 15px 0;
+        }
+      }
+
+      .silver-border {
+        border-top: 3px solid #D6D6E0;
+      }
+
+      .red-border {
+        border-top: 3px solid #DE1E3A;
+      }
+
+    }
+  }
+
+  nav {
+    .Enter {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  main {
+    .sect-one {
+      background-color: #003846;
+    }
+
+    .sect-two {
+      position: absolute;
+      top: 620px;
+      left: 0;
+      right: 0;
+
+      .container {
+        .java {
+          background-color: #0A4958;
+        }
+      }
+    }
+
+    .sect-three {
+      margin-top: 330px;
+
+      .container {
+        .table {
+          .hoverr:hover {
+            color: white;
+            background-color: #003846;
+
+            button {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+
+    .sect-four {
+      .container
+      .row {
+        .col {
+          .pictur {
+            width: 182px;
+            height: 212px;
+            border: 5px solid #104452;
+            border-radius: 50%;
+            box-shadow: 0 7px 7px #697fc6;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+
+    .sect-five {
+      background-color: #F8F8FA;
+
+      .container {
+        .owl-carousel {
+          .card {
+            .apostrf {
+              width: 50px;
+              height: 50px;
+            }
+
+            .tania {
+              width: 180px;
+              height: 200px;
+            }
+
+          }
+        }
+      }
+    }
+
+  }
+
+  .main2 {
+    .container {
+      .row {
+        .col-4 {
+          .imgf0 {
+            position: relative;
+
+            .imgf1 {
+              position: absolute;
+              top: 0;
+              right: -19px;
+            }
+
+            .imgf2 {
+              position: absolute;
+              top: 0;
+              right: -39px;
+            }
+          }
+
+          .formm {
+            background-color: #F8F8FA;
+          }
+        }
+
+        .col-8 {
+
+
+          .kurslar {
+            .navTab {
+              background-color: #AEAEAF;
+
+              .nav {
+                .nav-item {
+                  .nav-link {
+                    text-decoration: none;
+                    color: #AEAEAF;
+
+                    &.nav-link:hover {
+                      color: black;
+                      border-bottom: 3px solid black;
+                    }
+
+                    &.nav-link:active {
+                      color: black;
+                      border-bottom: 3px solid black;
+                    }
+                  }
+                }
+              }
+            }
+
+            .tab-content {
+              .down_arrow {
+                width: 25px;
+                height: 15px;
+
+                &.active {
+                  transform: rotate(180deg);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .main3 {
+    background-color: #AEAEAF;
+
+    .container {
+      .row {
+
+        .col-4 {
+
+        }
+
+        .col-8 {
+
+          .nav {
+            .nav-item {
+              .nav-link {
+                text-decoration: none;
+                color: #AEAEAF;
+
+                &.nav-link:hover {
+                  color: black;
+                  border-bottom: 3px solid black;
+                }
+
+                &.nav-link:active {
+                  color: black;
+                  border-bottom: 3px solid black;
+                }
+              }
+            }
+          }
+
+          .tab-content {
+
+            .flex-row-reverse {
+              .teacher {
+                border-radius: 30px;
+                border: 1px solid silver;
+                background-color: white;
+                position: relative;
+
+                .pdp {
+                  position: absolute;
+                  border-radius: 50%;
+                  bottom: 30px;
+                  right: -15;
+                }
+              }
+            }
+
+            .w-75 {
+              border-radius: 30px;
+              border: 1px solid silver;
+              background-color: #AEAEAF;
+              position: relative;
+
+              .read {
+                position: absolute;
+                right: 5px;
+                bottom: 5px;
+              }
+
+              .pupil {
+                position: absolute;
+                left: -20px;
+                top: 22px;
+              }
+            }
+
+
+          }
+        }
+
+      }
+    }
+  }
+
+  .main4 {
+    background-color: #AEAEAF;
+
+    .container {
+      .row {
+        .col-4 {
+         position: relative;
+          .setting{
+            position: absolute;
+            top: 30px;
+            right: 30px;
+          }
+        }
+
+        .col-8 {
+
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: #F8F8FA;
+
+    .container {
+      .row {
+        .col-2, .col-6 {
+          .nav-link {
+            color: #6C6C6C;
+          }
+        }
+      }
+    }
+  }
+
+}
